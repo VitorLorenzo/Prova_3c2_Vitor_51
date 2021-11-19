@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> cofrinho </title>
+         <link rel="stylesheet" href="estilo.css">
+        </head>
+        <body>
+            <main>
+            <div class="section">
+                <div class="title"> Cofrinho</div>
+
+            <div class="input">
+                <input placeholder="Diga seu nome:" type="text" id="nome" required="required">
+                </div>
+                <div class="input">
+                    <input placeholder="Indique o valor aplicado mensalmente:" type="number" id="mensal" required="required">
+                </div>
+                <div class="input">
+                    <input placeholder="Informe as parcelas mensais:" type="number" id="parcelas" required="required">
+                </div>
+                <div class="input">
+                    <input placeholder="informe a taxa de juros:" type="number" id="juros" required="required">
+                </div>
+                <button id='calcular'>Calcular</button>
+                <div class="result" id="resultado"></div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+        </body>
+</html>
